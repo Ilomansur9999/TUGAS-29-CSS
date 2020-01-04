@@ -3,30 +3,102 @@
 <head>
 	<meta charset="utf-8">
 	<title>Belajar CSS - Niomic</title>
-	<link rel="stylesheet" type="text/css" href="semantic.min.css">
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/reset.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/site.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/container.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/grid.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/header.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/image.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/menu.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/divider.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/segment.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/form.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/input.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/button.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/list.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/message.css" />
+	  <link rel="stylesheet" type="text/css" href="Semantic-UI-1.0/dist/components/icon.css" />
 
+	  <script src="assets/library/jquery.min.js"></script>
+	  <script src="dist/components/form.js"></script>
+	  <script src="dist/components/transition.js"></script>
+
+	<style type="text/css">
+		body{
+			background-color: #dadada;
+		}
+
+		body>.grid {
+	      height: 100%;
+	    }
+
+		.column {
+	      max-width: 450px;
+	    }
+
+	    .button {
+	    	width: 400px;
+	    }
+
+	</style>
 </head>
-<body>
-	<script src="semantic.min.js"></script>
 
-		<div class="ui inverted segment">
-		  <button class="ui inverted button">Standard</button>
-		  <button class="ui inverted primary button">Primary</button>
-		  <button class="ui inverted secondary button">Secondary</button>
-		  <button class="ui inverted red button">Red</button>
-		  <button class="ui inverted orange button">Orange</button>
-		  <button class="ui inverted yellow button">Yellow</button>
-		  <button class="ui inverted olive button">Olive</button>
-		  <button class="ui inverted green button">Green</button>
-		  <button class="ui inverted teal button">Teal</button>
-		  <button class="ui inverted blue button">Blue</button>
-		  <button class="ui inverted violet button">Violet</button>
-		  <button class="ui inverted purple button">Purple</button>
-		  <button class="ui inverted pink button">Pink</button>
-		  <button class="ui inverted brown button">Brown</button>
-		  <button class="ui inverted grey button">Grey</button>
-		  <button class="ui inverted black button">Black</button>
-		</div>
+<body>
+
+
+
+	<div class="ui middle aligned center aligned grid">
+
+		<div class="column">
+
+			<h2 class="ui teal image header">
+	          <img src="logo1.jpg" class="image"/>
+	          <div class="content">Daftar Akun Niomic</div>
+	        </h2>
+
+	        <form class="ui large form">
+	        	<div class="ui stacked segment">
+	        		<div class="field">
+		        		<div class="ui left icon input">
+		        			<i class="user icon"></i>
+							<input type="text" placeholder="Nama Depan">
+		        		</div>
+					</div>
+
+					<div class="field">
+			        	<div class="ui left icon input">
+							<i class="user icon"></i>
+							<input type="text" placeholder="Nama Belakang">
+						</div>
+					</div>
+
+					<div class="field">
+						<div class="ui left icon input">
+							<i class="user icon"></i>
+							<input type="text" placeholder="No Telp/HP">
+						</div>
+					</div>
+
+					<div class="field">
+						<div class="ui left icon input">
+							<i class="user icon"></i>
+							<input type="text" placeholder="Alamat Email">
+						</div>				
+					</div>
+
+					<div class="field">
+						<div class="ui left icon input">
+							<i class="lock icon"></i>
+							<input type="password" placeholder="Password">
+						</div>						
+					</div>
+
+					<div class="field">
+						<div class="ui fluid large teal submit button">Login</div>				
+					</div>	        		
+	        	</div>
+	        </form>
+
 
 </body>
 </html>
